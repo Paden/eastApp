@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('eastApp', ['ngAnimate', '$strap']);
+angular.module('eastApp', ['ngAnimate', '$strap', 'google-maps']);

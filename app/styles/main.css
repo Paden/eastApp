@@ -1,6 +1,7 @@
 html,body
 {
   height: 100%;
+  background: #e1e1e1
 }
 .container-full {
   margin: 0 auto;

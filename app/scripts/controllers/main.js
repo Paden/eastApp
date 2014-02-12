@@ -8,49 +8,88 @@ angular.module('eastApp').controller('MainCtrl', function ($scope)
         'content': 'Hello Popover<br />This is a multiline message!'
     };
     $scope.map = {
-        zoom: 8,
+        zoom: 15,
         center: {
-            latitude: 45,
-            longitude: -73
+            latitude: 30.2646809,
+            longitude: -97.6979548,
         }
     };
 
     $scope.mapOptions = {
         styles : [
-          {
-            featureType: 'road',
-            elementType: 'geometry',
-            stylers: [
-              { color: '#FF8BA4' },
-            ]
-          },{
-            featureType: 'administrative.neighborhood',
-            elementType: 'geometry',
-            stylers: [
-              { color: '#333' },
-              { weight: 1.6 }
-            ]
-          }, {
-            featureType: 'road',
-            elementType: 'labels',
-            stylers: [
-              { color: '#FF8BA4' },
-              { invert_lightness: true }
-            ]
-          }, {
-            featureType: 'landscape',
-            elementType: 'geometry',
-            stylers: [
-              { color: '#ccc' },
-            ]
-          }, {
-            featureType: 'poi.school',
-            elementType: 'geometry',
-            stylers: [
-              { hue: '#f90' },
-              { lightness: -15 },
-              { saturation: 99 }
-            ]
-          }
-        ]};
+    {
+        "featureType": "water",
+        "stylers": [
+            {
+                "color": "#46bcec"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "stylers": [
+            {
+                "color": "#f2f2f2"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 45
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#444444"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    }
+]};
 });
+
+

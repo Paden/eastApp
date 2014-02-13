@@ -54,12 +54,13 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <div class="col-md-7 col-sm-7 nav-right pull-right">
                         <form class="navbar-form navbar-left" role="search">
-                            <div class="form-group">
-                                <input type="text" class="form-control input-sm" placeholder="Search">
-                            </div>
+                            <label>Multiple select:&nbsp;</label>
+<button type="button" class="btn btn-default" ng-model="selectedIcons" data-html="1" data-multiple="1" data-animation="am-flip-x" ng-options="icon.value as icon.label for icon in icons" bs-select>
+  Action <span class="caret"></span>
+</button>
                         </form>
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Artists & Studios</a></li>
+                            <li class="active"><a href="#!/artists">Artists & Studios</a></li>
                             <li><a href="#">Exhibitions</a></li>
                             <li><a href="#">Events</a></li>
                             <li><a href="#">Sponsors & Support</a></li>

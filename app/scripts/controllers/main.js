@@ -18,74 +18,74 @@ angular.module('eastApp').controller('MainCtrl', function ($scope)
     $scope.mapOptions = {
         styles : [
     {
-        "featureType": "water",
-        "stylers": [
+        'featureType': 'water',
+        'stylers': [
             {
-                "color": "#46bcec"
+                'color': '#46bcec'
             },
             {
-                "visibility": "on"
+                'visibility': 'on'
             }
         ]
     },
     {
-        "featureType": "landscape",
-        "stylers": [
+        'featureType': 'landscape',
+        'stylers': [
             {
-                "color": "#f2f2f2"
+                'color': '#f2f2f2'
             }
         ]
     },
     {
-        "featureType": "road",
-        "stylers": [
+        'featureType': 'road',
+        'stylers': [
             {
-                "saturation": -100
+                'saturation': -100
             },
             {
-                "lightness": 45
+                'lightness': 45
             }
         ]
     },
     {
-        "featureType": "road.highway",
-        "stylers": [
+        'featureType': 'road.highway',
+        'stylers': [
             {
-                "visibility": "simplified"
+                'visibility': 'simplified'
             }
         ]
     },
     {
-        "featureType": "road.arterial",
-        "elementType": "labels.icon",
-        "stylers": [
+        'featureType': 'road.arterial',
+        'elementType': 'labels.icon',
+        'stylers': [
             {
-                "visibility": "off"
+                'visibility': 'off'
             }
         ]
     },
     {
-        "featureType": "administrative",
-        "elementType": "labels.text.fill",
-        "stylers": [
+        'featureType': 'administrative',
+        'elementType': 'labels.text.fill',
+        'stylers': [
             {
-                "color": "#444444"
+                'color': '#444444'
             }
         ]
     },
     {
-        "featureType": "transit",
-        "stylers": [
+        'featureType': 'transit',
+        'stylers': [
             {
-                "visibility": "off"
+                'visibility': 'off'
             }
         ]
     },
     {
-        "featureType": "poi",
-        "stylers": [
+        'featureType': 'poi',
+        'stylers': [
             {
-                "visibility": "off"
+                'visibility': 'off'
             }
         ]
     }

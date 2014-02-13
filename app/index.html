@@ -17,12 +17,10 @@
     <!-- build:css styles/vendor.css -->
     <link rel="stylesheet" href="styles/bootstrap.css">
     <link rel="stylesheet" href="styles/east-theme.css">
-    <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap-datepicker/css/datepicker.css" />
     <link rel="stylesheet" href="bower_components/bootstrap-datepicker/css/datepicker3.css" />
     <link rel="stylesheet" href="bower_components/bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
     <link rel="stylesheet" href="bower_components/bootstrap-select/bootstrap-select.css" />
-    <!-- endbower -->
     <link rel="stylesheet" href="bower_components/angular-motion/dist/angular-motion.css" />
     <!-- endbuild -->
 
@@ -41,7 +39,7 @@
         <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
-      
+
                 <div class="navbar-header ">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
@@ -51,9 +49,9 @@
                     </button>
                     <a href="#"><img class="logo" src="images/EAST_LOGO-INVERTED.svg"></a>
                 </div>
-      
+
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">                    
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <div class="col-md-7 col-sm-7 nav-right pull-right">
                         <form class="navbar-form navbar-left" role="search">
                             <div class="form-group">
@@ -74,19 +72,18 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
-        <div class="fullY " ng-include="'views/main.html'" style=""></div>
+        <ng-view class="fullY"></ng-view>
     </div>
-    
+
 
     <!--[if lt IE 9]>
     <script src="bower_components/es5-shim/es5-shim.js"></script>
     <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
-    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
     <!-- build:js scripts/vendor.js -->
     <script src="bower_components/underscore/underscore.js"></script>
-    <!-- bower:js -->
+    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
@@ -94,8 +91,8 @@
     <script src="bower_components/autotype/index.js"></script>
     <script src="bower_components/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
     <script src="bower_components/bootstrap-select/bootstrap-select.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
-    <!-- endbower -->
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
     <!-- endbuild -->

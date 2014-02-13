@@ -1,7 +1,9 @@
 'use strict';
 
-angular.module('eastApp', ['ngRoute', 'monospaced.qrcode', 'ngAnimate', '$strap', 'google-maps', 'webStorageModule']);
+var depModules = ['ngRoute'    , 'monospaced.qrcode', 'ngAnimate' , '$strap',
+				  'google-maps', 'webStorageModule' , 'ngResource'];
 
+angular.module('eastApp', depModules);
 angular.module('eastApp').config([ '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider)
 {
 	var directory      = 'views/',

@@ -12,7 +12,7 @@
     "angular-route": "1.2.12",
     "angular-animate": "~1.2.13",
     "angular-google-maps": "1.0.9",
-    "qrcodejs": "git://github.com/davidshimjs/qrcodejs"
+    "angular-qrcode": "~3.1.0"
   },
   "devDependencies": {
     "angular-mocks": "1.2.6",

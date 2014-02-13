@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('eastApp', ['ngRoute', 'ngAnimate', '$strap', 'google-maps']);
+angular.module('eastApp', ['ngRoute', 'monospaced.qrcode', 'ngAnimate', '$strap', 'google-maps']);
 
 angular.module('eastApp').config([ '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider)
 {

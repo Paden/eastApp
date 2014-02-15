@@ -2,7 +2,7 @@
 
 angular.module('eastApp').service('Artflask', ['$resource', function Artflask ( $resource )
 {
-	var endPoint     = 'unknown',
+	var endPoint     = 'http://east.gluu.org',
 		artResource  =  $resource(endPoint + '/art/:art_id/:action', {art_id:'@id', action: 'picture' } );
 
 	return {

@@ -62,7 +62,11 @@
                     <li><a href="#!/ifo">Info</a></li>
                 </ul>
                 <form class="navbar-form navbar-right form-group" role="search">
-                    <input type="text" class="form-control input-sm" placeholder="Search artists, venues, events">
+                    <button type="button" class="btn btn-default" ng-model="selectedIcons"
+                        multiple="1" ng-options="medium for medium in mediums" bs-select
+                         placeholder="Search artists, venues, events">
+                        Action <span class="caret"></span>
+                    </button>
                 </form>
 
             </div>
@@ -90,6 +94,8 @@
     <script src="bower_components/bootstrap-select/bootstrap-select.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
+    <script src="bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
+    <script src="bower_components/angular-strap/src/helpers/parse-options.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
     <script src="bower_components/angular-qrcode/qrcode.js"></script>

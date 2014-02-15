@@ -1,6 +1,6 @@
 'use strict';
 
-var depModules = ['ngRoute'    , 'monospaced.qrcode', 'ngAnimate' , '$strap',
+var depModules = ['ngRoute'    , 'monospaced.qrcode', 'ngAnimate' , 'mgcrea.ngStrap', 'mgcrea.ngStrap.helpers.parseOptions',
 				  'google-maps', 'webStorageModule' , 'ngResource'];
 
 angular.module('eastApp', depModules);

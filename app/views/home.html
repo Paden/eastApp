@@ -1,6 +1,16 @@
-<div class="clearfix row fullY">
-    <div class="col-md-5 fullY" ng-controller="MapCtrl">
+<div class="clearfix row">
+    <div class="col-md-5" ng-controller="MapCtrl">
         <google-map class="" center="map.center" zoom="map.zoom" options="mapOptions" draggable="true"></google-map>
     </div>
-	<gallery class="column col-md-7"></gallery>
+	<div class="col-md-7">
+		<div class="row">
+			<button class="btn btn-primary btn-block" upload-picture>
+				<i class="fa fa-fw fa-lg fa-camera-retro"></i>
+				Add New Art to Gallery
+			</button>
+		</div>
+		<div class="row">
+			<gallery class="col-md-12"></gallery>
+		</div>
+	</div>
 </div>

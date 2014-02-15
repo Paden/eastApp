@@ -4,3 +4,4 @@ dist
 ./dist
 .tmp
 .sass-cache
+.DS_STORE

@@ -1,4 +1,4 @@
-/*east-theme.css*/                                                                                 
+/*east-theme.css*/
 @import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded);
 
 /* custom template */
@@ -54,7 +54,7 @@ a:hover{color:#ed145b;text-decoration: none;}
 .btn{font-family: 'Stint Ultra Expanded',sans-serif;}
 .text-caps{text-transform: uppercase;}
 .btn-primary .fa-heart{
-color: inherit; 
+color: inherit;
 padding: .15em;
 position: relative;
 }
@@ -134,14 +134,14 @@ font-size: 10px;
 }
 .name-address a{color: #ed145b;}
 .fa-heart{
-color: #6dcff6; 
+color: #6dcff6;
 padding: .15em;
 position: relative;
 transition: .25s;
 -webkit-transition:.25s;
 }
 .fa-heart:active,.fa-heart:hover{
-color: #ed145b; 
+color: #ed145b;
 cursor: pointer;
 }
 .heart-num{
@@ -184,3 +184,29 @@ padding-right: .5em;
 .column.col-sm-7{background: #f2f2f2}
 .column.col-sm-5{margin:0;padding: 0}
 .column .padding {padding: 20px;}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+.fullY{
+  height: 100%;
+}
+.navbar {
+  margin-bottom: 0;
+}
+/*
+angular-google-maps
+ */
+google-map
+{
+  display:block;
+}
+.angular-google-map {
+  height: 100%;
+}
+.angular-google-map-container {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}

@@ -8,7 +8,7 @@
         </button>
         <a class="navbar-brand" href="/">E.A.S.T.</a>
     </div>
-    <div class="collapse navbar-collapse ">
+    <div class="collapse navbar-collapse" style="max-height: 370px;">
         <span class="east-date navbar-left stint-font">Nov. 16-17 + 23-24, 2014</span>
         <form class="navbar-form navbar-right">
             <button type="button" class="btn btn-primary btn-sm ">
@@ -16,13 +16,18 @@
                 My E.A.S.T.
             </button>
         </form>
-        <ul class="nav navbar-nav navbar-right ">
+        <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">Artists</a></li>
             <li><a href="#!/exhibitions">Exhibitions</a></li>
             <li><a href="#!/events">Events</a></li>
             <li><a href="#!/sponsors">Sponsors</a></li>
             <li><a href="#!/info">Info</a></li>
         </ul>
+        <form class="navbar-form navbar-right" role="search" style="margin-bottom:0">
+            <input type="text" class="form-control single-box-outer" ng-model="searchOption"
+                placeholder="Search for artists, venues, events, mediums" html="1"
+                ng-options="medium.name as medium.img for medium in mediums" bs-typeahead>
+        </form>
     </div>
     <!--/.nav-collapse -->
 </div>

@@ -29,10 +29,12 @@
             <li><a href="#!/sponsors">Sponsors</a></li>
             <li><a href="#!/info">Info</a></li>
         </ul>
-        <form class="navbar-form navbar-right visible-xs visible-lg visible-xl" role="search" style="margin-bottom:0" >
-            <input type="text" class="form-control" ng-model="searchOption"
-                placeholder="Search for artists, venues, events, mediums" html="1"
-                ng-options="medium.name as medium.img for medium in mediums" bs-typeahead>
+        <form class="navbar-form navbar-right visible-xs visible-lg visible-xl" role="search"
+            style="margin-bottom:0;margin-top: 12px;">
+            <select class="form-control" class="chosen-select" ng-model="searchOption"
+                data-placeholder="Search for artists, venues, events, mediums"
+                chosen ng-options="medium.name as medium.name for medium in mediums" style="min-width:200px">
+            </select>
         </form>
     </div>
     <!--/.nav-collapse -->

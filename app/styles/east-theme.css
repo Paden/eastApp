@@ -193,6 +193,17 @@ padding-right: .5em;
 .navbar {
   margin-bottom: 0;
 }
+
+.emTop
+{
+  margin-top : 1em;
+}
+
+.emBot
+{
+  margin-bottom : 1em;
+}
+
 /*
 angular-google-maps
  */

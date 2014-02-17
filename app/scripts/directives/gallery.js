@@ -3,7 +3,7 @@
 angular.module('eastApp').directive('gallery', function ()
 {
     return {
-		templateUrl : '/views/directives/gallery.html',
+		templateUrl : 'views/directives/gallery.html',
 		restrict    : 'E',
 		link        : function postLink(scope, element, attrs)
 		{

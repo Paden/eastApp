@@ -3,7 +3,7 @@
 angular.module('eastApp').directive('venue', function ()
 {
     return {
-		templateUrl : '/views/directives/venue.html',
+		templateUrl : 'views/directives/venue.html',
 		restrict    : 'E',
 		scope       :  { entity:'=' }
     };

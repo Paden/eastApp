@@ -1,29 +1,9 @@
 eastApp
 =======
-# AngularJS generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-angular.png?branch=master)](http://travis-ci.org/yeoman/generator-angular) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-
-> Yeoman generator for AngularJS - lets you quickly set up a project with sensible defaults and best practises.
-
-
-## Usage
-
-Install `generator-angular`:
-```
-npm install -g generator-angular
-```
-
-Make a new directory, and `cd` into it:
-```
-mkdir my-new-project && cd $_
-```
-
-Run `yo angular`, optionally passing an app name:
-```
-yo angular [app-name]
-```
-
-Run `grunt` for building and `grunt serve` for preview
-
+## License
+![CC BY NC SA Licensing](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 ## Generators
 
@@ -43,14 +23,6 @@ Available generators:
 * [angular:view](#view)
 
 **Note: Generators are to be run from the root directory of your app.**
-
-### App
-Sets up a new AngularJS app, generating all the boilerplate you need to get started. The app generator also optionally installs Twitter Bootstrap and additional AngularJS modules, such as angular-resource (installed by default).
-
-Example:
-```bash
-yo angular
-```
 
 ### Route
 Generates a controller and view, and configures a route in `app/scripts/app.js` connecting them.
@@ -172,54 +144,6 @@ angular.module('myMod').config(function ($provide) {
   });
 ```
 
-## Options
-In general, these options can be applied to any generator, though they only affect generators that produce scripts.
-
-### CoffeeScript
-For generators that output scripts, the `--coffee` option will output CoffeeScript instead of JavaScript.
-
-For example:
-```bash
-yo angular:controller user --coffee
-```
-
-Produces `app/scripts/controller/user.coffee`:
-```coffeescript
-angular.module('myMod')
-  .controller 'UserCtrl', ($scope) ->
-```
-
-A project can mix CoffeScript and JavaScript files.
-
-To output JavaScript files, even if CoffeeScript files exist (the default is to output CoffeeScript files if the generator finds any in the project), use `--coffee=false`.
-
-### Minification Safe
-
-**Removed**
-
-[Related Issue #452](https://github.com/yeoman/generator-angular/issues/452): This option has been removed from the generator. Initially it was needed as ngMin was not entirely stable. As it has matured, the need to keep separate versions of the script templates has led to extra complexity and maintenance of the generator. By removing these extra burdens, new features and bug fixes should be easier to implement. If you are dependent on this option, please take a look at ngMin and seriously consider implementing it in your own code. It will help reduce the amount of typing you have to do (and look through) as well as make your code cleaner to look at.
-
-By default, generators produce unannotated code. Without annotations, AngularJS's DI system will break when minified. Typically, these annotations that make minification safe are added automatically at build-time, after application files are concatenated, but before they are minified. The annotations are important because minified code will rename variables, making it impossible for AngularJS to infer module names based solely on function parameters.
-
-The recommended build process uses `ngmin`, a tool that automatically adds these annotations. However, if you'd rather not use `ngmin`, you have to add these annotations manually yourself. **One thing to note is that `ngmin` does not produce minsafe code for things that are not main level elements like controller, services, providers, etc.:
-
-```javascript
-resolve: {
-  User: function(myService) {
-    return MyService();
-  }
-}
-```
-
-will need to be manually done like so:
-```javascript
-resolve: {
-  User: ['myService', function(myService) {
-    return MyService();
-  }]
-}
-```
-
 
 ### Add to Index
 By default, new scripts are added to the index.html file. However, this may not always be suitable. Some use cases:
@@ -233,7 +157,7 @@ To skip adding them to the index, pass in the skip-add argument:
 yo angular:service serviceName --skip-add
 ```
 
-## Bower Components
+## Bower Components (to be updated...)
 
 The following packages are always installed by the [app](#app) generator:
 
@@ -271,19 +195,3 @@ This will cause Yeoman-generated client-side files to be placed in `public`.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
-
-## Contribute
-
-See the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)
-
-When submitting an issue, please follow the [guidelines](https://github.com/yeoman/yeoman/blob/master/contributing.md#issue-submission). Especially important is to make sure Yeoman is up-to-date, and providing the command or commands that cause the issue.
-
-When submitting a PR, make sure that the commit messages match the [AngularJS conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/).
-
-When submitting a bugfix, write a test that exposes the bug and fails before applying your fix. Submit the test alongside the fix.
-
-When submitting a new feature, add tests that cover the feature.
-
-## License
-
-[BSD license](http://opensource.org/licenses/bsd-license.php)

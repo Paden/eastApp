@@ -6,7 +6,7 @@ var depModules = ['ngRoute'    , 'monospaced.qrcode', 'ngAnimate' , 'mgcrea.ngSt
 function appConfig( $routeProvider, $locationProvider )
 {
 	var directory      = 'views/',
-		availableViews = [ 'home', 'artists', 'exhibitions', 'events', 'sponsors', 'tour' ],
+		availableViews = [ 'home', 'artists', 'exhibitions', 'events', 'sponsors', 'tour', 'admin' ],
 		defView        = availableViews[0];
 
 	$routeProvider.when('/:view?',

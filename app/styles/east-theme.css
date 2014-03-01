@@ -248,10 +248,6 @@ google-map
     overflow-x: hidden;
     overflow-y:scroll;
   }
-  body, html
-  {
-    overflow-y: hidden;
-  }
 }
 
 /* Large devices (large desktops, 1200px and up) */

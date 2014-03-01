@@ -39,10 +39,11 @@
                 <li><a href="#!/sponsors">Sponsors</a></li>
                 <li><a href="#!/info">Info</a></li>
             </ul>
-            <form class="navbar-form navbar-right hidden-xs hidden-sm" role="search"
-                style="margin-bottom:0;margin-top: 12px;">
+            <form class="navbar-form navbar-right hidden-xs hidden-sm" role="search">
+                <input type="text" class="form-control" ng-keyup="setSearchVenue($event)" style="margin-bottom:10px"
+                    placeholder="Search for Venues">
                 <select class="selectpicker" ng-model="searchOption" multiple data-selected-text-format="count>1"
-                    title="Search by Medium" data-width="300px" style="display:none">
+                    data-text="asdf" data-width="30px" style="display:none">
                     <option ng-repeat="medium in mediums" data-content="{{medium.html}}">{{medium.name}}</option>
                 </select>
             </form>

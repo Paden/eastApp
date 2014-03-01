@@ -5,6 +5,7 @@ angular.module('eastApp').controller('MainCtrl', ['$scope', 'Artflask', '$timeou
 	var VenuesResource =  Artflask.getVenuesResource();
 	$scope.venues      =  true;
 	$scope.mediums     =  [];
+	$scope.searchVenue =  false;
 
 	function mediumContains( name )
 	{
@@ -14,6 +15,11 @@ angular.module('eastApp').controller('MainCtrl', ['$scope', 'Artflask', '$timeou
 		}
 		return false;
     }
+
+    $scope.setSearchVenue =  function( $event )
+    {
+    	$scope.searchVenue = $event.currentTarget.value;
+    };
 
 	VenuesResource.query( function( venues )
 	{

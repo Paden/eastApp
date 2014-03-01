@@ -20,6 +20,21 @@ angular.module('eastApp').directive('gallery', function ( $timeout, Artflask )
 
 			scope.filterSearchOptions =  function ( venue )
 			{
+				if( scope.searchVenue )
+				{
+					if ( venue.name.indexOf( scope.searchVenue ) >= 0 )
+					{
+						return true;
+					}
+
+					if ( (venue.site_id + '').indexOf( scope.searchVenue ) >= 0 )
+					{
+						return true;
+					}
+
+					return false;
+				}
+
 				if( scope.searchOption )
 				{
 					for (var i = scope.searchOption.length - 1; i >= 0; i--)

@@ -18,7 +18,7 @@ angular.module('eastApp').directive('gallery', function ( $timeout, Artflask )
 				});
 			}
 
-			scope.isSelectedVenue =  function ( venue )
+			scope.filterSearchOptions =  function ( venue )
 			{
 				if( scope.searchOption )
 				{
@@ -30,10 +30,7 @@ angular.module('eastApp').directive('gallery', function ( $timeout, Artflask )
 						}
 					}
 				}
-
-				if ( !scope.selectedVenue ) { return true; }
-
-				return scope.selectedVenue._id.$oid !== venue._id.$oid;
+				return true;
 			}
 
 			scope.venueClicked    =  function ( venue )

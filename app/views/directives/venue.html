@@ -6,30 +6,20 @@
         </span>
         <address class="name-address">
             <p>
-                <a href="javascript:void(0)" ng-bind-template="{{entity.site_id}}.&nbsp;{{entity.name}}" class="h3">
-
-                </a>
+                <a href="javascript:void(0)" ng-bind-template="{{entity.site_id}}.&nbsp;{{entity.name}}" class="h3"></a>
                 <br>
-                <span ng-bind="entity.address.street"></span>
+                <span ng-bind="entity.address.street" class="h5"></span>
             </p>
         </address>
+        <img ng-src="{{entity.picture}}" class="img-responsive">
         <div class="panel">
             <div class="panel-heading">
                 <div class="row">
                     <div class="col-sm-9">
-                        <h3>
-                            <strong>Title of Art</strong>
-                        </h3>
                         <p ng-bind="entity.description"></p>
                         <ul class="list-inline">
                             <li ng-repeat="medium in entity.mediums">
                                 <small class="label label-warning" ng-bind="medium"></small>
-                            </li>
-                            <li>
-                                <span class="stint-font">Price:</span>
-                                <strong>$450</strong>
-                            </li>
-                            <li><a href="" target="_blank" ng-bind="entity.mail"></a>
                             </li>
                         </ul>
 

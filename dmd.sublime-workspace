@@ -1,0 +1,2073 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"scri",
+				"script>  (element)"
+			],
+			[
+				"save",
+				"saveEstimate"
+			],
+			[
+				"create",
+				"createNewFinanceEstimate"
+			],
+			[
+				"attr",
+				"attrActive"
+			],
+			[
+				"en",
+				"entityWatch"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"function",
+				"func  (function)"
+			],
+			[
+				"update",
+				"updatePromise"
+			],
+			[
+				"curl_info",
+				"curl_getinfo"
+			],
+			[
+				"public",
+				"publicProfile"
+			],
+			[
+				"sor",
+				"sortedArr"
+			],
+			[
+				"u",
+				"uglify"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"adtech_",
+				"adtech_async"
+			],
+			[
+				"str",
+				"strtolower"
+			],
+			[
+				"adtech_as",
+				"adtech_asyncif"
+			],
+			[
+				"last",
+				"lastElem"
+			],
+			[
+				"to",
+				"toFixed  (function)"
+			],
+			[
+				"text-",
+				"text-transform:   (property)"
+			],
+			[
+				"new",
+				"newTr"
+			],
+			[
+				"Premiumvideosubscriber",
+				"PremiumvideossubscriberResource  (class)"
+			],
+			[
+				"get",
+				"getSessionCacheId  (function)"
+			],
+			[
+				"liv",
+				"livefyreToken"
+			],
+			[
+				"Live",
+				"Livefyre_Domain"
+			],
+			[
+				"getUser",
+				"getUserToken"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"ser",
+				"seriesTable"
+			],
+			[
+				"c",
+				"uppercase"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"render",
+				"renderAjax"
+			],
+			[
+				"pro",
+				"productMonthly"
+			],
+			[
+				"product",
+				"productYearly"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"Flo",
+				"FloLivefyre_Domain"
+			],
+			[
+				"fyre",
+				"fyre-widget"
+			],
+			[
+				"TLD",
+				"TLD_DEV  (constant)"
+			],
+			[
+				"error",
+				"error_log  (function)"
+			],
+			[
+				"ra",
+				"rackspace"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"Floc",
+				"Flocasts_Http"
+			],
+			[
+				"exit",
+				"exitWithJSONError"
+			],
+			[
+				"remove",
+				"removeLink"
+			],
+			[
+				"uplo",
+				"uploadBtn"
+			],
+			[
+				"simple",
+				"simplexml_load_string"
+			],
+			[
+				"ex",
+				"exitWithJSONError  (function)"
+			],
+			[
+				"simplexml_",
+				"simplexml_load_file"
+			],
+			[
+				"ass",
+				"assetUpload"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"dis",
+				"dispatchEvent"
+			],
+			[
+				"date",
+				"datepicker"
+			],
+			[
+				"returnErr",
+				"returnErrorIf"
+			],
+			[
+				"moveTo",
+				"moveToFirstDayOfMonth"
+			],
+			[
+				"htmld",
+				"html_entity_decode"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"FONT",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"FActive",
+				"FActiveResourceCriteria"
+			],
+			[
+				"ke",
+				"array_key_exists"
+			],
+			[
+				"Video",
+				"VideoResource"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"exp",
+				"expiration"
+			],
+			[
+				"asset",
+				"assetURL"
+			],
+			[
+				"getCon",
+				"getContentType  (function)"
+			],
+			[
+				"Coverage",
+				"CoverageResource"
+			],
+			[
+				"n",
+				"nth-child(  (pseudo-class)"
+			],
+			[
+				"fon-",
+				"font-weight"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"Oo",
+				"ooyala"
+			],
+			[
+				"data",
+				"dataProvider"
+			],
+			[
+				"http",
+				"httpclient"
+			],
+			[
+				"Sys",
+				"SysOutAndLogDebug"
+			],
+			[
+				"Facebo",
+				"SocialFacebook"
+			],
+			[
+				"BASE_",
+				"FLOCMS_CORE_BASE_PATH"
+			],
+			[
+				"pos",
+				"POS_END  (constant)"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"onlo",
+				"onloadCallback"
+			],
+			[
+				"assoc",
+				"assocObject"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"vi",
+				"videoList"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"commen",
+				"commentText"
+			],
+			[
+				"err",
+				"error_log  (function)"
+			],
+			[
+				"content",
+				"content_type"
+			],
+			[
+				"errr",
+				"error_log"
+			],
+			[
+				"iden",
+				"identifier"
+			],
+			[
+				"Disq",
+				"DisqusAPI"
+			],
+			[
+				"dt",
+				"detailsUrl"
+			],
+			[
+				"post",
+				"postID"
+			],
+			[
+				"JSON",
+				"json_encode"
+			],
+			[
+				"Dis",
+				"DisqusAPI"
+			],
+			[
+				"build",
+				"http_build_query"
+			],
+			[
+				"DISq",
+				"DISQUS_PUBLIC_KEY"
+			],
+			[
+				"DIS",
+				"DISQUS_SECRET_KEY"
+			],
+			[
+				"def",
+				"defPic"
+			],
+			[
+				"wr",
+				"writeElement"
+			],
+			[
+				"find",
+				"findAll  (function)"
+			],
+			[
+				"product_t",
+				"product_type"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"sql",
+				"sqlUpdates"
+			],
+			[
+				"set",
+				"setHeaderRow  (function)"
+			],
+			[
+				"default",
+				"default_photo_id"
+			],
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"select",
+				"selectDatePickers"
+			],
+			[
+				"PREM",
+				"PremiumModel"
+			],
+			[
+				"cmd",
+				"cmdIsDown"
+			],
+			[
+				"ctrl",
+				"ctrlKey"
+			],
+			[
+				"bro",
+				"browser"
+			],
+			[
+				"wrPP",
+				"wrapper-outer"
+			],
+			[
+				"ref",
+				"refpath"
+			],
+			[
+				"downa",
+				"downloadCSV"
+			],
+			[
+				"premium",
+				"premiumvideos"
+			],
+			[
+				"sub",
+				"subscriptions"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"user",
+				"user_id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 142.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"sjson",
+				"Set Syntax: SJSON"
+			],
+			[
+				"link",
+				"Snippet: HTML - Stylesheet link"
+			],
+			[
+				"jshint",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"jshnt",
+				"JSHint"
+			],
+			[
+				"jshin",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"clear",
+				"JSHint: Clear Annotations"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"goog",
+				"Google Spell Check"
+			],
+			[
+				"google",
+				"Google Spell Check"
+			],
+			[
+				"package",
+				"Package Control: Add Repository"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"htm",
+				"Snippet: html"
+			],
+			[
+				"prefer",
+				"Preferences: Browse Packages"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"package con",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"quick",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"quic",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"solr",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP"
+			],
+			[
+				"set java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"tidy",
+				"TidyHTML"
+			],
+			[
+				"htp",
+				"HTTP Requester"
+			],
+			[
+				"http",
+				"HTTP Requester"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"delete",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tid",
+				"TidyHTML"
+			],
+			[
+				"delet",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"delte",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"dlete",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trial",
+				"Tag: Remove Picked Attributes From Tags in Selection"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trailin",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"css",
+				"Tidy CSS (Highest Compression)"
+			],
+			[
+				"php",
+				"Tidy PHP"
+			],
+			[
+				"tidy ",
+				"Tidy PHP"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"php ",
+				"Tidy PHP"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html ",
+				"Tidy HTML"
+			],
+			[
+				"minif",
+				"Minify Javascript"
+			],
+			[
+				"mini",
+				"Minify Javascript"
+			],
+			[
+				"minify",
+				"Minify Javascript"
+			],
+			[
+				"snippet",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"tidy p",
+				"Tidy PHP"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"snippet jqu",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"set syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax p",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntax ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jquery",
+				"Snippet: jQuery Plugin Boilerplate Minified"
+			],
+			[
+				"jqur",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tidy h",
+				"Tidy HTML"
+			],
+			[
+				"set syntax htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"HTML",
+				"Tidy HTML"
+			],
+			[
+				"MOVE",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"qui",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"set sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"set sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"set json",
+				"Set Syntax: JSON"
+			],
+			[
+				"Forma",
+				"Format: Php"
+			],
+			[
+				"Form",
+				"Format: Php"
+			],
+			[
+				"pretti",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"jquery p",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"jquery pl",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"php if",
+				"Snippet: <?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"REMOVE",
+				"Package Control: Remove Package"
+			],
+			[
+				"dropd",
+				"Snippet: Yii CHtml::dropDownList"
+			],
+			[
+				"dropdo",
+				"Snippet: Yii CHtml::dropDownList"
+			],
+			[
+				"yii ",
+				"Snippet: Yii CHtml::activeName"
+			],
+			[
+				"yii cgr",
+				"Snippet: Yii CLinkPager"
+			],
+			[
+				"sea",
+				"Search Anywhere: From Input"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				":w",
+				"Snippet: while …"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"insal",
+				"Package Control: Install Package"
+			],
+			[
+				"REMO",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 239.0,
+		"history":
+		[
+			"tidy",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/padenportillo/workspace/dmd/sftp-config.json",
+		"/Users/padenportillo/workspace/east/Gruntfile.js",
+		"/Users/padenportillo/workspace/east/app/index.html",
+		"/Users/padenportillo/workspace/east/app/scripts/app.js",
+		"/Users/padenportillo/workspace/east/app/scripts/controllers/main.js",
+		"/Users/padenportillo/workspace/east/app/scripts/directives/venue.js",
+		"/Users/padenportillo/workspace/east/app/scripts/directives/gallery.js",
+		"/Users/padenportillo/workspace/east/app/views/navbar.html",
+		"/Users/padenportillo/workspace/east/app/views/directives/venue.html",
+		"/Users/padenportillo/workspace/east/app/views/directives/gallery.html",
+		"/Users/padenportillo/workspace/east/app/views/home.html",
+		"/Users/padenportillo/workspace/east/bower.json",
+		"/Users/padenportillo/workspace/east/app/styles/east-theme.css",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-contrib-cssmin/tasks/cssmin.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/coffee-script.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-contrib-clean/CHANGELOG",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/mout/lang/isNull.js",
+		"/Users/padenportillo/workspace/east/app/scripts/controllers/map.js",
+		"/Users/padenportillo/workspace/east/app/views/sponsors.html",
+		"/Users/padenportillo/workspace/east/app/views/directives/uploadpicture.html",
+		"/Users/padenportillo/workspace/east/app/scripts/directives/uploadpicture.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-newer/test/newer-modify-one.spec.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-contrib-jshint/node_modules/jshint/src/reporters/non_error.js",
+		"/Users/padenportillo/workspace/east/app/views/directives/uploadpicture-modal.html",
+		"/Users/padenportillo/workspace/east/app/images/fiber.svg",
+		"/Users/padenportillo/workspace/east/app/views/single-box.html",
+		"/Users/padenportillo/workspace/east/app/scripts/services/artflask.js",
+		"/Users/padenportillo/workspace/east/app/views/artists.html",
+		"/Users/padenportillo/workspace/east/app/bower_components/angular-resource/angular-resource.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-contrib-jshint/node_modules/jshint/data/non-ascii-identifier-start.js",
+		"/Users/padenportillo/workspace/east/.tmp/styles/east-theme.css",
+		"/Users/padenportillo/workspace/east/app/bower_components/font-awesome/src/3.2.1/icon/mail-reply-all/index.html",
+		"/Users/padenportillo/workspace/east/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip/headers/mainHeader.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-contrib-uglify/test/fixtures/expected/exportAll.js",
+		"/Users/padenportillo/workspace/east/karma-e2e.conf.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-contrib-htmlmin/docs/htmlmin-options.md",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-google-cdn/node_modules/bower/test/manager.js",
+		"/Users/padenportillo/workspace/east/node_modules/karma/node_modules/log4js/test/gelfAppender-test.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-contrib-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/Users/padenportillo/workspace/east/app/bower_components/bootstrap-datepicker/docs/Makefile",
+		"/Users/padenportillo/workspace/east/.gitignore",
+		"/Users/padenportillo/workspace/east/app/styles/icon-moon.css",
+		"/Users/padenportillo/workspace/east/app/scripts/directives/gallery.html",
+		"/Users/padenportillo/workspace/east/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js",
+		"/Users/padenportillo/workspace/east/node_modules/.bin/autoprefixer",
+		"/Users/padenportillo/workspace/east/app/scripts/controllers/mapcontroller.js",
+		"/Users/padenportillo/workspace/east/test/spec/controllers/mapcontroller.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-google-cdn/node_modules/bower/templates/error-summary.mustache",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-google-cdn/node_modules/bower/node_modules/unzip/test/pipeSingleEntry.js",
+		"/Users/padenportillo/workspace/east/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/examples/sleepsort.coffee",
+		"/Users/padenportillo/workspace/east/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/examples/sleepsort.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt/node_modules/.bin/nopt",
+		"/Users/padenportillo/workspace/east/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/ISecurityParameters.as",
+		"/Users/padenportillo/workspace/east/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/IAsn1Type.as",
+		"/Users/padenportillo/workspace/east/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ITestHarness.as",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-contrib-concat/test/expected/handling_invalid_files",
+		"/Users/padenportillo/workspace/east/node_modules/grunt/node_modules/eventemitter2/index.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-contrib-uglify/node_modules/uglify-js/test/compress/negate-iife.js",
+		"/Users/padenportillo/workspace/east/node_modules/grunt-ngmin/node_modules/ngmin/node_modules/escodegen/node_modules/source-map/node_modules/amdefine/intercept.js",
+		"/Users/padenportillo/workspace/east/.jshintrc",
+		"/Users/padenportillo/.gitignore",
+		"/Users/padenportillo/workspace/east/app/bower_components/angular-webstorage/angular-webstorage.js",
+		"/Users/padenportillo/workspace/east/app/bower_components/angular-qrcode/qrcode.js",
+		"/Users/padenportillo/workspace/east/app/bower_components/angular-animate/.bower.json",
+		"/Users/padenportillo/workspace/east/app/views/exhibitions.html",
+		"/Users/padenportillo/workspace/east/app/views/events.html",
+		"/Users/padenportillo/workspace/east/app/views/tour.html",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/Entry.js",
+		"/Users/padenportillo/workspace/east/app/styles/bootstrap.css",
+		"/Users/padenportillo/workspace/east/app/styles/main.css",
+		"/Users/padenportillo/workspace/east/app/bower_components/angular-strap/dist/angular-strap.js",
+		"/Users/padenportillo/workspace/east/app/views/main.html",
+		"/Users/padenportillo/workspace/noesis/directives/src/main/js/noesis/directives/neScrollTop.js",
+		"/Users/padenportillo/workspace/noesis/directives/src/main/js/noesis/directives/neScrollTop.html",
+		"/Users/padenportillo/workspace/noesis/directives/src/main/js/noesis/directives/neScrollTo.js",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/test-infra/s3_cache.py",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/js/scrollspy.js",
+		"/Users/padenportillo/workspace/noesis/bootstrap/built/partials/noesis/directives/neScrollTop-20140131074338.html",
+		"/Users/padenportillo/workspace/noesis/directives/src/main/js/noesis/directives/neSectorModel.js",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/projects/directives/neEstimateFull.html",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/less/navbar.less",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/financeEstimator/templates/details.html",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/financeEstimator/templates/download.html",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/financeEstimator/services/financeService.js",
+		"/Users/padenportillo/workspace/noesis/directives/src/main/js/noesis/directives/neLocationModel.js",
+		"/Users/padenportillo/workspace/noesis/drupal/drupal/sites/all/themes/noesis_bootstrap/css/noesis-theme.css",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/dist/css/noesis-theme.css",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/dist/css/noesis-theme.min.css",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/node_modules/grunt-contrib-less/node_modules/less/test/css/no-output.css",
+		"/Users/padenportillo/workspace/noesis/coding-standards/eclipse/noesis-eclipse-javascript-formatter.xml",
+		"/Users/padenportillo/workspace/noesis/drupal/drupal/sites/all/modules/noesis/noesis_imagerehost/noesis_imagerehost.info",
+		"/Users/padenportillo/workspace/noesis/closure-library/closure/bin/build/depstree_test.py",
+		"/Users/padenportillo/workspace/noesis/webapp-noesis/NoesisWeb/locales/dashboard/dashboard-en-us.properties",
+		"/Users/padenportillo/workspace/noesis/bootstrap/deploy.xml",
+		"/Users/padenportillo/workspace/noesis/directives/src/main/js/noesis/directives/neSectorModel.html",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/financeEstimator/templates/preview.html",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/projects/controllers/estimatesController.js",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/projects/directives/neCreateEstimate.html",
+		"/Users/padenportillo/workspace/noesis/ne-webServices/src/main/js/noesis/serviceProxies/NEFS/NEFSService.js",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/projects/services/estimatesService.js",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/session/directives/neCreateAccount.html",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/financeEstimator/modules/neFinanceEstimate.js",
+		"/Users/padenportillo/Library/Application Support/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
+		"/Users/padenportillo/Library/Application Support/Sublime Text 3/Packages/JsFormat/JsFormat.sublime-settings",
+		"/Users/padenportillo/workspace/noesis/drupal/drupal/sites/all/themes/noesis/css/images/finance.svg",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/node_modules/grunt-contrib-jade/node_modules/lodash-node/compat/objects/forIn.js",
+		"/Users/padenportillo/workspace/noesis/drupal/drupal/themes/garland/fix-ie.css",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/less/forms.less",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/node_modules/grunt-contrib-jade/node_modules/lodash-node/compat/objects/forOwn.js",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/node_modules/grunt-contrib-jade/node_modules/lodash-node/compat/objects/forOwnRight.js",
+		"/Users/padenportillo/workspace/noesis/webapp/src/main/js/noesis/webapp/lightingAdvisor/utils/financialStatsFormatter.js",
+		"/Users/padenportillo/workspace/noesis/ne-webServices/src/main/js/noesis/serviceProxies/Forecasts/ForecastsService.js",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/node_modules/grunt-saucelabs/node_modules/wd/doc/jsonwire-full.json",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/node_modules/grunt-jscs-checker/node_modules/jscs/lib/js-file.js",
+		"/Users/padenportillo/workspace/noesis/twbs-Bootstrap/node_modules/grunt-saucelabs/test/mocha/lib/reporters/json-stream.js",
+		"/Users/padenportillo/workspace/noesis/directives/lib/jshashtable.js",
+		"/Users/padenportillo/workspace/noesis/ne-webServices/src/main/js/noesis/serviceProxies/Opportunities/OpportunitiesServiceProxy.js",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/session/directives/neAuthBar.js",
+		"/Users/padenportillo/workspace/noesis/ne-webServices/src/main/js/noesis/serviceProxies/KeyMaster/KeyMasterProxy.js",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/users/controllers/UsersProfileController.js",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/financeEstimator/controllers/financeController.js",
+		"/Users/padenportillo/workspace/noesis/webapp-noesis/NoesisWeb/userprofile-layout.css",
+		"/Users/padenportillo/workspace/noesis/webapp-noesis/NoesisWeb/locales/userprofile/userprofile-en-us.properties",
+		"/Users/padenportillo/workspace/noesis/drupal/drupal/sites/all/modules/contrib/uuid/uuid_services_example/uuid_services_example.info",
+		"/Users/padenportillo/workspace/noesis/ne-webServices/src/main/js/noesis/statefullServices/UserSessionService.js",
+		"/Users/padenportillo/workspace/noesis/drupal/drupal/update.php",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/session/directives/neAuthBar.html",
+		"/Users/padenportillo/workspace/noesis/bootstrap/src/main/js/noesis/bootstrap/financeEstimator/services/financeEstimateService.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"*",
+			"*.css",
+			"*",
+			"*.css",
+			"*",
+			"*.module",
+			"*.php",
+			"*",
+			"*.php",
+			"*.java",
+			"*.php",
+			"*.ph",
+			"*.php",
+			"*.rb",
+			"*.php",
+			"",
+			"*.js",
+			"*.rb",
+			"*.php",
+			"*.rb",
+			"*.*",
+			"*.erb",
+			"*.php",
+			"*.css",
+			"*.rb",
+			"*",
+			"*.php",
+			"*.php, *.js",
+			"*.php",
+			"*.php, *.js",
+			"*.php",
+			"*.php, *.js",
+			"*.php, *.js, *.css",
+			"*.php, *.js",
+			"*.php",
+			"*.*",
+			"*.php",
+			"*.css",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.*",
+			"*.php",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.php",
+			"*.css",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.*",
+			"*.php",
+			"*.css",
+			"*.php",
+			"*.css",
+			"*.php",
+			"*.js",
+			"*.css",
+			"*.php",
+			"*.css",
+			"*.php",
+			"*.css",
+			"*.php",
+			"*.css",
+			"*.php",
+			"/Users/padenportillo/workspace/cms_instance/www.cms-flowrestling.local/protected/runtime/cache",
+			"*.php",
+			"*.java",
+			"*.php",
+			"/Users/padenportillo/workspace/www.test.local",
+			"*.php",
+			"*.css",
+			"*.php",
+			"/Users/padenportillo/workspace/flocasts_core/flocasts-cms/",
+			"/Users/padenportillo/workspace/flocasts_core/flocasts-cms/*.php",
+			"*.php",
+			"*.ph",
+			"*.css",
+			"*.php",
+			"*.php,-/Users/padenportillo/workspace/Servers/*",
+			"*.php,-/Users/padenportillo/workspace/Servers",
+			"*.php",
+			"*",
+			"*.php",
+			"*.java",
+			"*.php",
+			"*.java",
+			"*.php",
+			"*.java",
+			"*.php",
+			"",
+			"*.java",
+			"*",
+			"*.java",
+			"*.php",
+			"",
+			"*.php",
+			"/Users/padenportillo/workspace/",
+			"",
+			"*.php",
+			"/Users/padenportillo/workspace/flocasts_core/flocasts-cms/flocms_core/modules/video",
+			"*.php",
+			"<open files>",
+			"*.php",
+			"",
+			"/Users/padenportillo/padenportillo.com/wp-content/themes/retlehs-roots-a9d4cf3/assets/css",
+			"*.php",
+			"/Users/padenportillo/padenportillo.com/wp-content/themes/retlehs-roots-a9d4cf3/",
+			"/Users/padenportillo/padenportillo.com/wp-content/themes/retlehs-roots-a9d4cf3/*.php",
+			"/Users/padenportillo/padenportillo.com/wp-content/themes/retlehs-roots-a9d4cf3",
+			"*.php",
+			"",
+			"*.php",
+			"",
+			"*.php",
+			"*.*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/>",
+			"/",
+			"img:",
+			"...",
+			"facebook",
+			"image",
+			"width",
+			"10",
+			"name",
+			"4",
+			"width",
+			"responsive",
+			"10",
+			"src",
+			"name",
+			",",
+			"img",
+			",",
+			"src=\"imgs",
+			"bootstrap",
+			"fullY ",
+			"staffResource",
+			"artResource",
+			"endPoint",
+			"venuesResource",
+			"\"",
+			"Page",
+			"page",
+			"        ",
+			"       ",
+			"      ",
+			"bower",
+			"\"",
+			"finance-estimator-preview",
+			".",
+			"* @memberof noesis.bootstrap.financeEstimatorPreview",
+			"directives",
+			"neSectorModel",
+			".ne-estimator",
+			"ne-estimator",
+			"saveAndFinishLater",
+			"set",
+			"span",
+			"class=\"visible-sm\"",
+			"img-responsive ",
+			"margin",
+			"NEFSService",
+			",",
+			"getPublicProfile",
+			"$window",
+			"$location",
+			"initListView",
+			"setHash",
+			"\"",
+			"case",
+			",",
+			";",
+			"OpportunitiesService",
+			"neUtils",
+			"\"",
+			"page_bottom",
+			"<footer",
+			"<ne-footer",
+			"projects.services",
+			"estimatesService",
+			" margin-bottom-sm\"",
+			"style=\"\"",
+			"button",
+			"768px",
+			"min-width:768px",
+			"jekyll",
+			"container",
+			"@brand-primary",
+			"container",
+			"%;",
+			"model",
+			"0",
+			"fa-fw",
+			"text",
+			",",
+			"$rootScope",
+			"ngModelController",
+			"ngmOdel",
+			"require",
+			"apiService",
+			"neLocationModel",
+			"sectors",
+			"sectors\n",
+			"$compile(",
+			"$compile",
+			"searchLocations",
+			"predictionsLoading",
+			"=",
+			"neStep",
+			"estimateModel",
+			"estimatesModel",
+			"estimateModel",
+			"setLocation",
+			"addLocationMarker",
+			"<label>",
+			"label",
+			"<label>",
+			"<label>Location</label>",
+			"neStep",
+			"0.0",
+			",",
+			".ne-steps",
+			"scope",
+			"neStep",
+			"chart",
+			".homepg-bg",
+			".homepage-bg",
+			".homepage=bg",
+			"home",
+			"new Highcharts.Chart",
+			"savingsChart",
+			"neHighCharts",
+			"<highchart",
+			"highchart",
+			"UsersProfileController",
+			"users.controllers.UsersProfileController",
+			"<ne-steps active=\"1\">",
+			"Create a Project Savings Estimate",
+			"$",
+			"fromHTML",
+			"$",
+			"modules.neFinanceEstimate",
+			"modules"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"jQuery",
+			"",
+			";",
+			"",
+			"&&",
+			"\"",
+			"10.180.43.44",
+			"184.106.166.9",
+			"\"",
+			">",
+			"<",
+			"adtech_test_alias_728x90",
+			"two_columns_right_coverage_show",
+			"725",
+			"760",
+			"two_columns_right_coverage_show",
+			"two_columns_left_coverage",
+			"two_columns_right_coverage_show",
+			"two_columns_left_coverage",
+			"$app",
+			"#wrapper .uploadContainer",
+			"#wrapper .uploaderContainer\n",
+			"#wrapper .uploaderContainer \n\\r\n",
+			"\n\\r\n",
+			",\n",
+			"\n",
+			"",
+			"\\r\\n",
+			"$instance",
+			"Browser market",
+			"Flowrestling",
+			"",
+			"=>",
+			"",
+			"},",
+			"}",
+			"",
+			",",
+			"}",
+			"",
+			"{'id': ",
+			"}",
+			"{",
+			"",
+			"border: solid 3px #fef200;",
+			"echo",
+			"DMD_ECards",
+			"dmd-ecards",
+			".facebook-sc",
+			".twitter-sc",
+			".facebook-sc",
+			"this",
+			"\"",
+			"&x_",
+			"",
+			":",
+			"",
+			"&",
+			"=",
+			"",
+			"/var/mysql/mysql.sock",
+			"/tmp/mysql.sock",
+			"','",
+			"",
+			"\\\",\\\"",
+			",",
+			"table",
+			"PremiumNavWidget",
+			"NavWidget",
+			"/premium/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/padenportillo/workspace/dmd"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 158.0
+	},
+	"output.xdebug_inspect":
+	{
+		"height": 120.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"venue",
+				"app/scripts/directives/venue.js"
+			],
+			[
+				"galler",
+				"app/scripts/directives/gallery.js"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			],
+			[
+				"main",
+				"app/scripts/controllers/main.js"
+			],
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"map",
+				"app/scripts/controllers/map.js"
+			],
+			[
+				"home",
+				"app/views/home.html"
+			],
+			[
+				"navbar",
+				"app/views/navbar.html"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"gall",
+				"app/scripts/directives/gallery.js"
+			],
+			[
+				"nav",
+				"app/views/navbar.html"
+			],
+			[
+				"ven",
+				"app/scripts/directives/venue.js"
+			],
+			[
+				"artf",
+				"app/scripts/services/artflask.js"
+			],
+			[
+				"east",
+				".tmp/styles/east-theme.css"
+			],
+			[
+				"ma",
+				"app/scripts/controllers/main.js"
+			],
+			[
+				"gallery",
+				"app/views/directives/gallery.html"
+			],
+			[
+				"app.",
+				"app/scripts/app.js"
+			],
+			[
+				"scrollt",
+				"directives/src/main/js/noesis/directives/neScrollTop.js"
+			],
+			[
+				"nescroltop",
+				"directives/src/main/js/noesis/directives/neScrollTop.js"
+			],
+			[
+				"nesector",
+				"directives/src/main/js/noesis/directives/neSectorModel.js"
+			],
+			[
+				"nesec",
+				"directives/src/main/js/noesis/directives/neSectorModel.js"
+			],
+			[
+				"noesis-theme.css",
+				"/site/sites/all/themes/noesis_bootstrap/css/noesis-theme.css"
+			],
+			[
+				"noesis-theme",
+				"/site/sites/all/themes/noesis_bootstrap/css/noesis-theme.css"
+			],
+			[
+				"details",
+				"bootstrap/src/main/js/noesis/bootstrap/financeEstimator/templates/details.html"
+			],
+			[
+				"nesectorm",
+				"directives/src/main/js/noesis/directives/neSectorModel.html"
+			],
+			[
+				"neloca",
+				"directives/src/main/js/noesis/directives/neLocationModel.js"
+			],
+			[
+				"nefs",
+				"ne-webServices/src/main/js/noesis/serviceProxies/NEFS/NEFSService.js"
+			],
+			[
+				"financecon",
+				"bootstrap/src/main/js/noesis/bootstrap/financeEstimator/controllers/financeController.js"
+			],
+			[
+				"keymast",
+				"ne-webServices/src/main/js/noesis/serviceProxies/KeyMaster/KeyMasterProxy.js"
+			],
+			[
+				"userspor",
+				"bootstrap/src/main/js/noesis/bootstrap/users/controllers/UsersProfileController.js"
+			],
+			[
+				"neauth",
+				"bootstrap/src/main/js/noesis/bootstrap/session/directives/neAuthBar.js"
+			],
+			[
+				"nefsservice",
+				"ne-webServices/src/main/js/noesis/serviceProxies/NEFS/NEFSService.js"
+			],
+			[
+				"nesect",
+				"directives/src/main/js/noesis/directives/neSectorModel.js"
+			],
+			[
+				"entry",
+				"bootstrap/src/main/js/noesis/bootstrap/Entry.js"
+			],
+			[
+				"noesis-the",
+				"twbs-Bootstrap/dist/css/noesis-theme.css"
+			],
+			[
+				"estimatemodel",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/model/estimatesModel.js"
+			],
+			[
+				"details.",
+				"bootstrap/src/main/js/noesis/bootstrap/financeEstimator/templates/details.html"
+			],
+			[
+				"nelocait",
+				"directives/src/main/js/noesis/directives/neLocationModel.js"
+			],
+			[
+				"nefinanceestimate",
+				"bootstrap/src/main/js/noesis/bootstrap/financeEstimator/modules/neFinanceEstimate.js"
+			],
+			[
+				"dire",
+				"directives/src/main/js/noesis/directives/directives.js"
+			],
+			[
+				"nestep",
+				"directives/src/main/js/noesis/directives/neStep.js"
+			],
+			[
+				"locationcontroller",
+				"bootstrap/src/main/js/noesis/bootstrap/location/controllers/locationController.js"
+			],
+			[
+				"nehighcha",
+				"directives/src/main/js/noesis/directives/neHighcharts.js"
+			],
+			[
+				"nehint",
+				"directives/src/main/js/noesis/directives/hint.js"
+			],
+			[
+				"nescrol",
+				"directives/src/main/js/noesis/directives/neScrollTop.js"
+			],
+			[
+				"nefina",
+				"bootstrap/src/main/js/noesis/bootstrap/financeEstimator/modules/neFinanceEstimate.js"
+			],
+			[
+				"neuserab",
+				"bootstrap/src/main/js/noesis/bootstrap/users/templates/neUserAbout.html"
+			],
+			[
+				"neusera",
+				"bootstrap/src/main/js/noesis/bootstrap/users/directives/neUserAbout.js"
+			],
+			[
+				"directives",
+				"directives/src/main/js/noesis/directives/directives.js"
+			],
+			[
+				"noes",
+				"twbs-Bootstrap/dist/css/noesis-theme.css"
+			],
+			[
+				"neuserabout",
+				"bootstrap/src/main/js/noesis/bootstrap/users/directives/neUserAbout.js"
+			],
+			[
+				"nehigh",
+				"directives/src/main/js/noesis/directives/neHighcharts.js"
+			],
+			[
+				"nehi",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/design/neHighCharts.html"
+			],
+			[
+				"ne",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neEstimateFull.html"
+			],
+			[
+				"nemoda",
+				"ne-webServices/src/main/js/noesis/statefullServices/directives/neLoginModal.html"
+			],
+			[
+				"nemodal",
+				"bootstrap/built/partials/noesis/statefullServices/directives/neLoginModal-20140131074338.html"
+			],
+			[
+				"neabout",
+				"bootstrap/src/main/js/noesis/bootstrap/users/templates/neUserAbout.html"
+			],
+			[
+				"neestimatef",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neEstimateFull.html"
+			],
+			[
+				"nehighchart",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/design/neHighCharts.html"
+			],
+			[
+				"estimatesclientcontroller",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/controllers/estimatesClientController.js"
+			],
+			[
+				"neestimatefull",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neEstimateFull.html"
+			],
+			[
+				"neestimated",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neEstimateDetails.html"
+			],
+			[
+				"scripts",
+				"/site/sites/all/themes/noesis_bootstrap/templates/noesis-scripts.php"
+			],
+			[
+				"from_html",
+				"/site/sites/all/themes/noesis_bootstrap/js/jspdf/jspdf.plugin.from_html.js"
+			],
+			[
+				"estimatescontroller",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/controllers/estimatesController.js"
+			],
+			[
+				"neestimateslist",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neEstimatesList.html"
+			],
+			[
+				"noesis-scr",
+				"/site/sites/all/themes/noesis_bootstrap/templates/noesis-scripts.php"
+			],
+			[
+				"imgpo",
+				"directives/src/main/js/noesis/directives/imgPopup.js"
+			],
+			[
+				"userabou",
+				"bootstrap/src/main/js/noesis/bootstrap/users/directives/neUserAbout.js"
+			],
+			[
+				"usersprofi",
+				"bootstrap/src/main/js/noesis/bootstrap/users/controllers/UsersProfileController.js"
+			],
+			[
+				"directive",
+				"directives/src/main/js/noesis/directives/directives.js"
+			],
+			[
+				"nescrollt",
+				"directives/src/main/js/noesis/directives/neScrollTo.js"
+			],
+			[
+				"nescroll",
+				"directives/src/main/js/noesis/directives/neScrollTo.js"
+			],
+			[
+				"imgpop",
+				"directives/src/main/js/noesis/directives/imgPopup.js"
+			],
+			[
+				"finance",
+				"bootstrap/src/main/js/noesis/bootstrap/modules/financeEstimate.js"
+			],
+			[
+				"public",
+				"ne-webServices/src/main/js/noesis/serviceProxies/KeyMaster/PublicProfile.js"
+			],
+			[
+				"publicpro",
+				"ne-webServices/src/main/js/noesis/serviceProxies/KeyMaster/PublicProfile.js"
+			],
+			[
+				"sessionser",
+				"ne-webServices/src/main/js/noesis/statefullServices/UserSessionService.js"
+			],
+			[
+				"keymas",
+				"ne-webServices/src/main/js/noesis/serviceProxies/KeyMaster/KeyMasterProxy.js"
+			],
+			[
+				"userspro",
+				"bootstrap/src/main/js/noesis/bootstrap/users/controllers/UsersProfileController.js"
+			],
+			[
+				"homepage",
+				"/site/sites/all/themes/noesis/gardens/default/homepage.php"
+			],
+			[
+				"page--user",
+				"/site/sites/all/themes/noesis_bootstrap/templates/page--user.tpl.php"
+			],
+			[
+				"noeis-th",
+				"twbs-Bootstrap/dist/css/noesis-theme.css"
+			],
+			[
+				"drupaluti",
+				"ne-webServices/src/main/js/noesis/serviceProxies/Search/drupalUtils.js"
+			],
+			[
+				"neuser",
+				"directives/src/main/js/noesis/directives/neUserFeed.js"
+			],
+			[
+				"imgp",
+				"directives/src/main/js/noesis/directives/imgPopup.js"
+			],
+			[
+				"keym",
+				"ne-webServices/src/main/js/noesis/serviceProxies/KeyMaster/KeyMasterProxy.js"
+			],
+			[
+				"community",
+				"bootstrap/src/main/js/noesis/bootstrap/community/services/CommunityService.js"
+			],
+			[
+				"neestimatesavings",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neEstimateSavings.html"
+			],
+			[
+				"netool",
+				"directives/src/main/js/noesis/directives/neTooltip.js"
+			],
+			[
+				"userses",
+				"ne-webServices/src/main/js/noesis/statefullServices/UserSessionService.js"
+			],
+			[
+				"nefollow",
+				"bootstrap/src/main/js/noesis/bootstrap/community/directives/neFollowButton.js"
+			],
+			[
+				"usersessions",
+				"ne-webServices/src/main/js/noesis/statefullServices/UserSessionService.js"
+			],
+			[
+				"nemicroblo",
+				"bootstrap/src/main/js/noesis/bootstrap/community/directives/neMicroBlogPanel.js"
+			],
+			[
+				"neuserfee",
+				"directives/src/main/js/noesis/directives/neUserFeed.js"
+			],
+			[
+				"usersprof",
+				"bootstrap/src/main/js/noesis/bootstrap/users/controllers/UsersProfileController.js"
+			],
+			[
+				"neaut",
+				"bootstrap/src/main/js/noesis/bootstrap/session/directives/neAuthBar.js"
+			],
+			[
+				"drupalutil",
+				"ne-webServices/src/main/js/noesis/serviceProxies/Search/drupalUtils.js"
+			],
+			[
+				"necommuni",
+				"bootstrap/src/main/js/noesis/bootstrap/community/directives/neCommunityNodeListing.html"
+			],
+			[
+				"necommunitynode",
+				"bootstrap/src/main/js/noesis/bootstrap/community/directives/neCommunityNodeListing.js"
+			],
+			[
+				"propertyset",
+				"ne-webServices/src/main/js/noesis/serviceProxies/PropertyService/PropertySetPathFactory.js"
+			],
+			[
+				"prop",
+				"ne-webServices/src/main/js/noesis/faux/PropertySetPathFactory.js"
+			],
+			[
+				"necreat",
+				"bootstrap/src/main/js/noesis/bootstrap/session/directives/neCreateAccount.html"
+			],
+			[
+				"neuserfeed",
+				"directives/src/main/js/noesis/directives/neUserFeed.js"
+			],
+			[
+				"nenotific",
+				"bootstrap/src/main/js/noesis/bootstrap/session/directives/neNotificationsHeader.html"
+			],
+			[
+				"propertyser",
+				"ne-webServices/src/main/js/noesis/faux/PropertySetPathFactory.js"
+			],
+			[
+				"createac",
+				"bootstrap/src/main/js/noesis/bootstrap/session/directives/neCreateAccount.html"
+			],
+			[
+				"profilese",
+				"bootstrap/src/main/js/noesis/bootstrap/users/modules/ProfileSection.js"
+			],
+			[
+				"confirmationdialog",
+				"bootstrap/src/main/js/noesis/bootstrap/community/directives/confirmationDialog.html"
+			],
+			[
+				"neestimatepreview",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neEstimatePreview.html"
+			],
+			[
+				"neestimatedetails",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neEstimateDetails.html"
+			],
+			[
+				"necreateestimate",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neCreateEstimate.html"
+			],
+			[
+				"scrollto",
+				"directives/src/main/js/noesis/directives/neScrollTo.js"
+			],
+			[
+				"ne-es",
+				"/site/sites/all/themes/noesis_bootstrap/css/directive-ne-estimator-tool.css"
+			],
+			[
+				"node-spon",
+				"/site/sites/all/themes/noesis_bootstrap/templates/node--sponsor-project.tpl.php"
+			],
+			[
+				"",
+				"/site/sites/all/themes/noesis_bootstrap/templates/node--case_study_mini.tpl.php"
+			],
+			[
+				"node--case",
+				"/site/sites/all/themes/noesis_bootstrap/templates/node--case_study_mini.tpl.php"
+			],
+			[
+				"node--mini",
+				"/site/sites/all/themes/noesis/node--case_study_mini.tpl.php"
+			],
+			[
+				"node--spon",
+				"/site/sites/all/themes/noesis/node--sponsor-project.tpl.php"
+			],
+			[
+				"directives.js",
+				"directives/src/main/js/noesis/directives/directives.js"
+			],
+			[
+				"node--cas",
+				"/site/sites/all/themes/noesis_bootstrap/templates/node--case_study_mini.tpl.php"
+			],
+			[
+				"areyousure",
+				"bootstrap/src/main/js/noesis/bootstrap/users/templates/areYouSure.html"
+			],
+			[
+				"users",
+				"bootstrap/src/main/js/noesis/bootstrap/users/controllers/UsersProfileController.js"
+			],
+			[
+				"nestep.",
+				"directives/src/main/js/noesis/directives/neStep.js"
+			],
+			[
+				"necreate",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neCreateEstimate.html"
+			],
+			[
+				"neestimatede",
+				"bootstrap/src/main/js/noesis/bootstrap/projects/directives/neEstimateDetails.html"
+			],
+			[
+				"nesteps",
+				"directives/src/main/js/noesis/directives/neSteps.html"
+			],
+			[
+				"noesis-them",
+				"twbs-Bootstrap/dist/css/noesis-theme.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/workspace/workspace.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 370.0,
+		"selected_items":
+		[
+		],
+		"width": 734.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

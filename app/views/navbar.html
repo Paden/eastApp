@@ -31,11 +31,17 @@
         </ul>
         <form class="navbar-form navbar-right visible-xs visible-lg visible-xl" role="search"
             style="margin-bottom:0;margin-top: 12px;">
-            <select class="form-control" class="chosen-select" ng-model="searchOption"
-                data-placeholder="Search for artists, venues, events, mediums"
-                chosen ng-options="medium.name as medium.name for medium in mediums" style="min-width:200px">
+            <select class="selectpicker" ng-model="searchOption" multiple data-selected-text-format="count>1"
+                data-live-search="true" title="Search by Medium">
+                <option ng-repeat="medium in mediums" data-content="{{medium.html}}">{{medium.name}}</option>
             </select>
         </form>
     </div>
+    <script>
+        setTimeout(function()
+        {
+            $('.selectpicker').selectpicker();
+        },200);
+    </script>
     <!--/.nav-collapse -->
 </div>

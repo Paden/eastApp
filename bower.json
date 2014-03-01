@@ -16,7 +16,7 @@
     "angular-webstorage": "~0.10.3",
     "angular-resource": "~1.2.13",
     "angular-sanitize": "~1.2.6",
-    "angular-chosen-localytics": "~1.0.4"
+    "bootstrap-select": "~1.4.3"
   },
   "devDependencies": {
     "angular-mocks": "1.2.6",

@@ -1,4 +1,77 @@
-<div class="single-box-outer">
+<div ng-if="featured" class="single-box-outer">
+    <div class="social-card">
+        <button type="button" class="close" style="z-index:2" data-dismiss="alert" aria-hidden="true">×</button>
+        <span class="pull-right fa fa-heart fa-2x fa-fw">
+            <span class="heart-num absolute-center">23</span>
+        </span>
+        <address class="name-address">
+            <p>
+                <a href="javascript:void(0)" ng-bind-template="{{entity.site_id}}.&nbsp;{{entity.name}}" class="h3">
+
+                </a>
+                <br>
+                <span ng-bind="entity.address.street"></span>
+            </p>
+        </address>
+        <div class="panel">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <h3>
+                            <strong>Title of Art</strong>
+                        </h3>
+                        <p ng-bind="entity.description"></p>
+                        <ul class="list-inline">
+                            <li ng-repeat="medium in entity.mediums">
+                                <small class="label label-warning" ng-bind="medium"></small>
+                            </li>
+                            <li>
+                                <span class="stint-font">Price:</span>
+                                <strong>$450</strong>
+                            </li>
+                            <li><a href="" target="_blank" ng-bind="entity.mail"></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#" target="_blank">
+                            <img src="images/qrcode.svg" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <hr>
+                    <span class="badge pull-right">EAST #5</span>
+                    <ul class="list-inline ">
+                        <li>
+                            <a ng-href="mailto:{{entity.mail}}" target="_blank">
+                                <i class="fa fa-envelope fa-2x"></i>
+                            </a>
+                        </li>
+                        <li ng-repeat="website in entity.websites">
+                            <a ng-href="{{website}}" target="_blank">
+                                <i class="fa fa-globe fa-2x"></i>
+                            </a>
+                        </li>
+                        <li ng-if="entity.twitter">
+                            <a ng-href="http://www.twitter.com/{{entity.twitter.substring(1)}}" target="_blank">
+                                <i class="fa fa-twitter-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-phone fa-2x"></i>
+                                <span ng-bind="entity.phone" class="h4"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-if="!featured" class="single-box-outer">
     <div class="single-box">
         <div class="overlay">
             <span class="pull-right fa fa-heart fa-2x fa-fw">

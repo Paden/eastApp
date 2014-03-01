@@ -1,6 +1,6 @@
 <div class="col-lg-12">
 	<div class="col-md-12 ng-hide" ng-show="selectedVenue">
-		<venue entity="selectedVenue"></venue>
+		<venue entity="selectedVenue" featured="true"></venue>
 	</div>
     <div class="col-lg-3 col-sm-4 col-xs-12" ng-repeat="venue in venues | filter:filterSearchOptions">
     	<venue ng-click="venueClicked(venue)" entity="venue"></venue>

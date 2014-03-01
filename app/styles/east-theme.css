@@ -39,7 +39,7 @@ position: absolute;
 right: 0;
 top: 0;
 }
-h1,h2,h3 {
+h1,h2,h3,.h1,.h2,.h3 {
 font-weight:800;
 font-family: 'Stint Ultra Expanded',sans-serif;
 }
@@ -216,6 +216,18 @@ google-map
 /* Small devices */
 .angular-google-map-container {
   min-height: 200px;
+}
+.appView
+{
+  display:block;
+  padding-top:51px;
+}
+
+@media (min-width: 768px) {
+  .appView
+  {
+    padding-top:102px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */

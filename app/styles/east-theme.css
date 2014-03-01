@@ -134,7 +134,7 @@ font-size: 10px;
 }
 .name-address a{color: #ed145b;}
 .fa-heart{
-color: #6dcff6;
+color: #ccc;
 padding: .15em;
 position: relative;
 transition: .25s;
@@ -222,6 +222,7 @@ google-map
   display:block;
   padding-top:51px;
 }
+.galleryView{}
 
 @media (min-width: 768px) {
   .appView
@@ -234,6 +235,15 @@ google-map
 @media (min-width: 992px) {
   .angular-google-map-container {
     min-height: 575px;
+  }
+  .galleryView {
+    height:575px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+  }
+  body, html
+  {
+    overflow-y: hidden;
   }
 }
 

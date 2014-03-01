@@ -321,6 +321,24 @@ module.exports = function (grunt) {
         configFile: 'karma.conf.js',
         singleRun: true
       }
+    },
+    buildcontrol:
+    {
+        options:
+        {
+            dir     : 'dist',
+            commit  : true,
+            push    : true,
+            message : 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+        },
+        pages:
+        {
+            options:
+            {
+                remote: 'git@github.com:Paden/Paden.github.io.git',
+                branch: 'master'
+            }
+        }
     }
   });
 
@@ -352,6 +370,12 @@ module.exports = function (grunt) {
     'connect:test',
     'karma'
   ]);
+
+  grunt.registerTask('push_gh', [
+        'build',
+        'buildcontrol:pages',
+        'clean:dist'
+    ]);
 
   grunt.registerTask('build', [
     'clean:dist',

@@ -1,9 +1,8 @@
 <div ng-if="featured" class="single-box-outer">
     <div class="social-card">
-        <button type="button" class="close" style="z-index:2" data-dismiss="alert" aria-hidden="true">×</button>
-        <span class="pull-right fa fa-heart fa-2x fa-fw">
-            <span class="heart-num absolute-center">23</span>
-        </span>
+        <button type="button" class="close" style="z-index:2">
+            <i class="fa fa-times fa-lg fa-fw"></i>
+        </button>
         <address class="name-address">
             <p>
                 <a href="javascript:void(0)" ng-bind-template="{{entity.site_id}}.&nbsp;{{entity.name}}" class="h3"></a>
@@ -14,7 +13,16 @@
         <img ng-src="{{entity.picture}}" class="img-responsive">
         <div class="panel">
             <div class="panel-heading">
-                <p ng-bind="entity.description"></p>
+                <div class="row">
+                    <div class="col-xs-11">
+                        <p ng-bind="entity.description"></p>
+                    </div>
+                    <div class="col-xs-1">
+                        <span class="fa fa-heart fa-2x fa-fw" style="margin-right:10px">
+                            <span class="heart-num absolute-center">23</span>
+                        </span>
+                    </div>
+                </div>
                 <ul class="list-inline">
                     <li ng-repeat="medium in entity.mediums">
                         <small class="label label-warning" ng-bind="medium"></small>

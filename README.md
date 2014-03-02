@@ -6,16 +6,8 @@ eastApp
 npm install && bower install
 ```
 
-## License
-![CC BY NC SA Licensing](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
+## Sub-Generators
 
-## Generators
-
-Available generators:
-
-* [angular](#app) (aka [angular:app](#app))
 * [angular:controller](#controller)
 * [angular:directive](#directive)
 * [angular:filter](#filter)
@@ -192,20 +184,11 @@ All of these can be updated with `bower update` as new versions of AngularJS are
 ## Configuration
 Yeoman generated projects can be further tweaked according to your needs by modifying project files appropriately.
 
-### Output
-You can change the `app` directory by adding a `appPath` property to `bower.json`. For instance, if you wanted to easily integrate with Express.js, you could add the following:
-
-```json
-{
-  "name": "yo-test",
-  "version": "0.0.0",
-  ...
-  "appPath": "public"
-}
-
-```
-This will cause Yeoman-generated client-side files to be placed in `public`.
-
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+## License
+![CC BY NC SA Licensing](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.

@@ -111,6 +111,7 @@ cursor: pointer;
 .single-box{
 position: relative;
 max-height: 300px;
+min-height:120px;
 overflow: hidden;
 border: 2px solid #FFF;
 opacity: 0.8;

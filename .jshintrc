@@ -21,6 +21,9 @@
   "globals": {
     "angular": true,
     "underscore" : true,
-    "jQuery" : true
+    "jQuery" : true,
+    "google" : true,
+    "$": true,
+    "addthis": true
   }
 }

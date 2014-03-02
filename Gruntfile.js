@@ -367,8 +367,8 @@ module.exports = function (grunt) {
     'clean:server',
     'concurrent:test',
     //'autoprefixer',
-    'connect:test',
-    'karma'
+    'connect:test'
+    //'karma'
   ]);
 
   grunt.registerTask('push_gh', [
@@ -395,7 +395,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('default', [
-    'newer:jshint',
+    //'newer:jshint',
     'test',
     'build'
   ]);

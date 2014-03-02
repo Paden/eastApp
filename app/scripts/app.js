@@ -7,7 +7,7 @@ angular.module('eastApp', depModules);
 angular.module('eastApp').config( function( $routeProvider, $locationProvider )
 {
 	var directory      = 'views/',
-		availableViews = [ 'home', 'artists', 'exhibitions', 'events', 'sponsors', 'tour', 'admin', 'image' ],
+		availableViews = [ 'home', 'artists', 'exhibitions', 'events', 'plate', 'tour', 'admin', 'image' ],
 		defView        = availableViews[0];
 
 	$routeProvider.when('/:view?',

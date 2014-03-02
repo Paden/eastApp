@@ -111,7 +111,7 @@ cursor: pointer;
 .single-box{
 position: relative;
 max-height: 300px;
-min-height:130px;
+min-height:250px;
 overflow: hidden;
 border: 2px solid #FFF;
 opacity: 0.8;
@@ -235,6 +235,9 @@ google-map
   {
     padding-top:102px;
   }
+  .single-box{
+    min-height:275px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -247,12 +250,25 @@ google-map
     overflow-x: hidden;
     overflow-y:scroll;
   }
+  .single-box{
+    min-height:150px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .angular-google-map-container {
     min-height: 650px;
+  }
+  .single-box{
+    min-height:200px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  .single-box{
+    min-height:250px;
   }
 }
 

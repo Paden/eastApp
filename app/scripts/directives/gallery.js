@@ -6,7 +6,7 @@ angular.module('eastApp').directive('gallery', function ( $timeout, Artflask )
 		templateUrl : 'views/directives/gallery.html',
 		restrict    : 'E',
 		scope       : false,
-		link        : function postLink(scope, element, attrs)
+		link        : function postLink( scope )
 		{
 			if ( !scope.venues )
 			{
@@ -22,31 +22,28 @@ angular.module('eastApp').directive('gallery', function ( $timeout, Artflask )
 			{
 				if( scope.searchVenue )
 				{
-					if ( venue.name.toLowerCase().indexOf( scope.searchVenue.toLowerCase() ) >= 0 )
+					var searchVenueLower =  scope.searchVenue.toLowerCase();
+
+					if ( venue.name.toLowerCase().indexOf( searchVenueLower ) >= 0 )
 					{
 						return true;
 					}
 
-					if ( (venue.site_id + '').indexOf( scope.searchVenue ) >= 0 )
+					if ( (venue.site_id + '').indexOf( searchVenueLower ) >= 0 )
 					{
 						return true;
+					}
+
+					for ( var i = 0; i < venue.mediums.length; i++ )
+					{
+						if( venue.mediums[i].toLowerCase().indexOf( searchVenueLower ) >= 0 ) { return true; }
 					}
 
 					return false;
 				}
 
-				if( scope.searchOption )
-				{
-					for (var i = scope.searchOption.length - 1; i >= 0; i--)
-					{
-						if ( venue.mediums.indexOf(scope.searchOption[i]) <= 0 )
-						{
-							return false;
-						}
-					}
-				}
 				return true;
-			}
+			};
 
 			scope.venueClicked    =  function ( venue )
 			{

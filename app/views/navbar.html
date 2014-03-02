@@ -33,7 +33,7 @@
                 </button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Artists</a></li>
+                <li class="active"><a href="#!/artists">Artists</a></li>
                 <li><a href="#!/exhibitions">Exhibitions</a></li>
                 <li><a href="#!/events">Events</a></li>
                 <!--li><a href="#!/home">Sponsors</a></li-->
@@ -41,10 +41,8 @@
             </ul>
             <form class="navbar-form navbar-right hidden-xs hidden-sm" role="search">
                 <input type="text" class="form-control" ng-keyup="setSearchVenue($event)" style="margin-bottom:10px"
-                    placeholder="Search for Venues">
-                <!--select class="selectpicker" ng-model="searchOption">
-                    <option ng-repeat="medium in mediums" data-content="{{medium.html}}">{{medium.name}}</option>
-                </select-->
+                    ng-model="searchModel" data-html="1" data-min-length="0" ng-keyup="setSearchVenue($event)"
+                    placeholder="Search for Venues" bs-typeahead ng-options="medium.name as medium.html for medium in mediums">
             </form>
         </div>
     </div>

@@ -20,5 +20,5 @@ angular.module('eastApp').service('Artflask', ['$resource', function Artflask ( 
 		getRegisterResource : function() {return registerResource;},
 		getProfileResource  : function() {return profileResource; },
 		getStaffResource    : function() {return staffResource;   },
-	}
+	};
 }]);

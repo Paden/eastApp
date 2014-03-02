@@ -6,7 +6,7 @@ angular.module('eastApp').directive('uploadPicture', ['$timeout', '$modal', func
 		templateUrl: 'views/directives/uploadpicture.html',
 		restrict   : 'A',
 		replace    : true,
-		link: function postLink(scope, element, attrs)
+		link: function postLink(scope, element)
 		{
 			element.on('click', function()
 			{

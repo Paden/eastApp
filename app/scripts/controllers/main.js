@@ -6,7 +6,6 @@ angular.module('eastApp').controller('MainCtrl', function( $scope, Artflask, $ti
 	$scope.venues       =  true;
 	$scope.mediums      =  [];
 	$scope.searchVenue  =  false;
-	$scope.searchOption =  false;
 
 	function mediumContains( name )
 	{
@@ -19,7 +18,7 @@ angular.module('eastApp').controller('MainCtrl', function( $scope, Artflask, $ti
 
     $scope.setSearchVenue =  function( $event )
     {
-    	$scope.searchVenue = $event.currentTarget.value;
+		$scope.searchVenue = $event.currentTarget.value;
     };
 
 	VenuesResource.query( function( venues )
@@ -45,22 +44,6 @@ angular.module('eastApp').controller('MainCtrl', function( $scope, Artflask, $ti
 		{
 			$scope.venues  =  venues;
 		});
-
-		// $timeout(function()
-		// {
-		// 	var $selectPicker =  $('.selectpicker').selectpicker({
-		// 		size               : 10,
-		// 		width              : '30px',
-		// 		selectedTextFormat : 'count>1'
-		// 	});
-
-		// 	$selectPicker.on('change', function()
-		// 	{
-		// 		var selected = $(this).val();
-
-		// 		$timeout(function() { $scope.searchOption = selected });
-		// 	});
-		// }, 500)
 	});
 });
 

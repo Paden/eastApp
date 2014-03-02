@@ -3,7 +3,8 @@
 var depModules = ['ngRoute'    , 'monospaced.qrcode', 'ngAnimate' , 'mgcrea.ngStrap', 'mgcrea.ngStrap.helpers.parseOptions',
 				  'google-maps', 'webStorageModule' , 'ngResource', 'ngSanitize'    ];
 
-function appConfig( $routeProvider, $locationProvider )
+angular.module('eastApp', depModules);
+angular.module('eastApp').config( function( $routeProvider, $locationProvider )
 {
 	var directory      = 'views/',
 		availableViews = [ 'home', 'artists', 'exhibitions', 'events', 'sponsors', 'tour', 'admin', 'image' ],
@@ -25,7 +26,4 @@ function appConfig( $routeProvider, $locationProvider )
     $routeProvider.otherwise( {redirectTo : '/' } );
 
     $locationProvider.hashPrefix('!');
-}
-
-angular.module('eastApp', depModules);
-angular.module('eastApp').config([ '$routeProvider', '$locationProvider', appConfig]);
+});

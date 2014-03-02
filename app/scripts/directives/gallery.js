@@ -22,7 +22,7 @@ angular.module('eastApp').directive('gallery', function ( $timeout, Artflask )
 			{
 				if( scope.searchVenue )
 				{
-					if ( venue.name.indexOf( scope.searchVenue ) >= 0 )
+					if ( venue.name.toLowerCase().indexOf( scope.searchVenue.toLowerCase() ) >= 0 )
 					{
 						return true;
 					}

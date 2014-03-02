@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('eastApp').controller('MainCtrl', ['$scope', 'Artflask', '$timeout', function( $scope, Artflask, $timeout )
+angular.module('eastApp').controller('MainCtrl', function( $scope, Artflask, $timeout )
 {
 	var VenuesResource =  Artflask.getVenuesResource();
 	$scope.venues      =  true;
@@ -34,7 +34,7 @@ angular.module('eastApp').controller('MainCtrl', ['$scope', 'Artflask', '$timeou
 					$scope.mediums.push(
 					{
 						name : medium,
-						html : '<img class="mediumIcon" src="images/'+medium+'.svg">' + name
+						html : '<img class="mediumIcon" src=\'images/'+medium+'.svg\'>' + name
 					});
 				}
 			});
@@ -52,6 +52,6 @@ angular.module('eastApp').controller('MainCtrl', ['$scope', 'Artflask', '$timeou
 			});
 		});
 	});
-}]);
+});
 
 

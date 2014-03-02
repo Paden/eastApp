@@ -1,7 +1,7 @@
 'use strict';
 
 var depModules = ['ngRoute'    , 'monospaced.qrcode', 'ngAnimate' , 'mgcrea.ngStrap', 'mgcrea.ngStrap.helpers.parseOptions',
-				'google-maps', 'webStorageModule' , 'ngResource', 'ngSanitize'    ];
+				'google-maps', 'webStorageModule' , 'ngResource', 'ngSanitize', 'scrollto'    ];
 
 angular.module('eastApp', depModules);
 angular.module('eastApp').config( function( $routeProvider, $locationProvider )

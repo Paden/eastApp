@@ -15,7 +15,8 @@
     "angular-qrcode": "~3.1.0",
     "angular-webstorage": "~0.10.3",
     "angular-resource": "~1.2.13",
-    "angular-sanitize": "~1.2.6"
+    "angular-sanitize": "~1.2.6",
+    "angular-scrollto": "*"
   },
   "devDependencies": {
     "angular-mocks": "1.2.6",

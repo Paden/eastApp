@@ -12,7 +12,8 @@
         <span class="pull-right fa fa-heart fa-2x fa-fw visible-xs visble-md" style="margin-top:10px">
             <span class="heart-num absolute-center">23</span>
         </span>
-        <button class="btn btn-primary pull-right visible-xs visble-md" style="margin-top:10px">
+        <button class="btn btn-primary pull-right visible-xs visble-md" style="margin-top:10px"
+            data-toggle="collapse" data-target=".navbar-collapse">
             <i class="fa fa-search fa-fw"></i>
         </button>
     </div>
@@ -49,6 +50,11 @@
         </div>
         <div class="visible-xs">
             <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <input type="text" class="form-control" ng-keyup="setSearchVenue($event)" style="margin-bottom:10px"
+                    ng-model="searchModel" data-html="1" data-min-length="0" ng-keyup="setSearchVenue($event)"
+                    placeholder="Search for Venues" bs-typeahead ng-options="medium.name as medium.html for medium in mediums">
+                </li>
                 <li class="active"><a href="#!/artists">Artists</a></li>
                 <li><a href="#!/exhibitions">Exhibitions</a></li>
                 <li><a href="#!/events">Events</a></li>

@@ -14,22 +14,12 @@
         <img ng-src="{{entity.picture}}" class="img-responsive">
         <div class="panel">
             <div class="panel-heading">
-                <div class="row">
-                    <div class="col-sm-9">
-                        <p ng-bind="entity.description"></p>
-                        <ul class="list-inline">
-                            <li ng-repeat="medium in entity.mediums">
-                                <small class="label label-warning" ng-bind="medium"></small>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="#" target="_blank">
-                            <img src="images/qrcode.svg" class="img-responsive">
-                        </a>
-                    </div>
-                </div>
+                <p ng-bind="entity.description"></p>
+                <ul class="list-inline">
+                    <li ng-repeat="medium in entity.mediums">
+                        <small class="label label-warning" ng-bind="medium"></small>
+                    </li>
+                </ul>
                 <div class="panel-body">
                     <hr>
                     <span class="badge pull-right">EAST #5</span>

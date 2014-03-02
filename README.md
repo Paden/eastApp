@@ -1,6 +1,11 @@
 eastApp
 =======
 
+## Install
+```bash
+npm install && bower install
+```
+
 ## License
 ![CC BY NC SA Licensing](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
@@ -169,10 +174,18 @@ The following packages are always installed by the [app](#app) generator:
 
 The following additional modules are available as components on bower, and installable via `bower install`:
 
-* angular-cookies
-* angular-loader
+* angular-strap
+* jquery
+* bootstrap
+* angular-motion
+* angular-route
+* angular-animate
+* angular-google-maps
+* angular-qrcode
+* angular-webstorage
 * angular-resource
 * angular-sanitize
+* angular-scrollto
 
 All of these can be updated with `bower update` as new versions of AngularJS are released.
 
